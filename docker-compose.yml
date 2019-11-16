@@ -1,0 +1,9 @@
+version: "3"
+services:
+  docker-go:
+    build: ./
+    ports:
+      - '80:80'
+    volumes:
+      - ./:/app
+
